@@ -1,0 +1,19 @@
+0 silly argv {
+0 silly argv   _: [ 'diff' ],
+0 silly argv   lernaVersion: '5.1.4',
+0 silly argv   '$0': '/Users/wallykim/getting-started-example/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v5.1.4
+2 verbose rootPath /Users/wallykim/getting-started-example
+3 silly hasCommit
+4 verbose hasCommit true
+5 verbose hasTags true
+6 silly getLastTagInBranch
+7 error Error: Command failed with exit code 128: git describe --tags --abbrev=0
+7 error fatal: No tags can describe '0952bfbf5fa4fe88612fb0e2a1b0ba46669088e9'.
+7 error Try --always, or create some tags.
+7 error     at makeError (/Users/wallykim/getting-started-example/node_modules/execa/lib/error.js:60:11)
+7 error     at Function.module.exports.sync (/Users/wallykim/getting-started-example/node_modules/execa/index.js:194:17)
+7 error     at Object.execSync (/Users/wallykim/getting-started-example/node_modules/@lerna/child-process/index.js:39:16)
+7 error     at getLastCommit (/Users/wallykim/getting-started-example/node_modules/@lerna/diff/lib/get-last-commit.js:15:25)
+7 error     at DiffCommand.initialize (/Users/wallykim/getting-started-example/node_modules/@lerna/diff/index.js:33:27)
